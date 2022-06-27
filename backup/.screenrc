@@ -1,0 +1,29 @@
+# Options
+ vbell off
+ startup_message off
+ shell -zsh
+ #caption always Γ~@~\%{Gb}%3n %t %=[%l | %H | %c]Γ~@~]
+
+ # Set hardstatus format and settings
+ hardstatus alwayslastline
+ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y-%m-%d %{W}%c %{g}]'
+
+ # control-e and control-w for previous and next
+ #bindkey "^e" next
+ #bindkey "^w" prev
+
+ # control-right and control-left for previous and next
+ #bindkey ^[[1;5D prev
+ #bindkey ^[[1;5C next
+
+ # shift-left and shift-right for previous and next
+ bindkey ^[[1;2D prev
+ bindkey ^[[1;2C next
+
+ # Various options
+ escape ^Aa
+ nethack off
+ maptimeout 5
+ defscrollback 5000
+ autodetach on
+ shelltitle '$ |bash'

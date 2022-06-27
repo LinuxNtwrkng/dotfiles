@@ -1,0 +1,7 @@
+[user]
+	email = kaden@p3family.com
+	name = Kaden
+[core]
+	excludesfile = /Users/kaden/.gitignore_global
+[init]
+	defaultBranch = master
