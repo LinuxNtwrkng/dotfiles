@@ -12,3 +12,5 @@ cd ~ && git clone https://github.com/LinuxNtwrkng/dotfiles.git
 # install brew files
 cd ~/dotfiles && brew bundle
 
+# restore dotfiles
+cd ~ && mackup restore
