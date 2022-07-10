@@ -139,5 +139,3 @@ autopystack() {
 }
 
 alias yeet_vm='pystack remove -H $@'
-eval "$(rbenv init -)"
-if [ -z $DISPLAY ]; then export DISPLAY=:0.0; fi
